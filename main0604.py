@@ -10,3 +10,4 @@ for i in sentence:
        
 print("The length of the sentence is:", length)
 print("The number of gaps in the sentence is:", gaps)
+print("The total number of characters in the sentence is:", length + gaps)
