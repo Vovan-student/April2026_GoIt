@@ -6,6 +6,5 @@ for i in sentence:
        length = length + 1
    else:
        gaps = gaps + 1
-
 print("The length of the sentence is:", length)
 print("The number of gaps in the sentence is:", gaps)
