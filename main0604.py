@@ -1,19 +1,9 @@
-# sentence = "The quick brown fox jumps over the lazy dog"
-# length = 0
-# gaps = 0
 
-# for i in sentence:
-#    if i!=" ":
-#        length = length + 1
-#    else:
-#        gaps = gaps + 1
-       
-# print("The length of the sentence is:", length)
-# print("The number of gaps in the sentence is:", gaps)
-# print("The total number of characters in the sentence is:", length + gaps)
+N = 10
+sum_squares = 0
+i = 1
+while i <= N:
+    sum_squares = sum_squares + i**2
+    i = i + 1
 
-count = 0
-while count < 15:
-    print("Число:", count)
-    count = count + 1
-print("Цикл завершен.")
+print(f"The sum of the squares of numbers from 1 to {N} is {sum_squares}")
