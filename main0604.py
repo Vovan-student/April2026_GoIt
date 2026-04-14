@@ -12,5 +12,8 @@
 # print("The number of gaps in the sentence is:", gaps)
 # print("The total number of characters in the sentence is:", length + gaps)
 
-for i in range(6):
-    print(i)
+count = 0
+while count < 15:
+    print("Число:", count)
+    count = count + 1
+print("Цикл завершен.")
