@@ -1,7 +1,13 @@
-def add_numbers(a, b, c):
-    return a + b * c
 
-result = add_numbers(5, 3, 8)
-print(result)  
-
+N = 10
+def function(n):
+    sum_squares = 0
+    i = 1
+    while i <= n:
+        sum_squares = sum_squares + i * i
+        i = i + 1
     
+    return sum_squares
+
+result = function(N)
+print(result)
