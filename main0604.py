@@ -1,19 +1,24 @@
-first_name = "John"
-last_name = "Doe"
+# # Введення (отримання даних)
+# ім_я = input("Введіть ваше ім'я: ")
 
+# # Перетворення (обробка даних)
+# вітання = f"Привіт, {ім_я}!"
 
-def get_initials(first_name, last_name):
-    return last_name + " " + first_name[0] + "."
-
-formatted_name  = get_initials(first_name, last_name)
-formatted_name2  = get_initials("Володимир","Боклаг")
-print(formatted_name)
-print(formatted_name2)
-
-text = "Python"
-print(text.upper())  
-print(text.lower())
-
-text = "  hello       "
-print(text.strip())
-print(text.lstrip())
+# # Виведення (виведення даних)
+# print(вітання)
+# age = 20
+# user_name = "Boris"
+# user_age = 30
+# ADULT_THR = 18
+name = "Oleg"
+s1 = "Hello"
+s2 = "world!"
+joinedstring = s1 + " " + s2
+joined_string = f"{s1} {s2}"
+# print(joined_string)
+# print(joinedstring)
+print("Привіт", end=" ")
+print(name)
+a = input("Рядок запрошення: ")
+# На екрані ви побачите: Рядок запрошення:
+print(a)
